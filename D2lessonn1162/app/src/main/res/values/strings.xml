@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">D2lessonn116</string>
+    <string name="tempertura_s">Tempertura: %s</string>
+    <string name="city_s">City: %s</string>
+    <string name="city">City</string>
+    <string name="temperature">temperature</string>
+</resources>

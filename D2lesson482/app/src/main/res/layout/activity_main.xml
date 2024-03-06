@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/item_col1"
+
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="242dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:outlineAmbientShadowColor="#FF0000"
+        android:outlineSpotShadowColor="#57030F"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#CB5169"
+        app:layout_constraintBottom_toTopOf="@id/guideVer1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/guideHor"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="#2B2B2B"
+        app:cardBackgroundColor="#BD4961"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@id/guideVer2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/guideHor"
+        app:layout_constraintTop_toTopOf="@id/guideVer1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:outlineAmbientShadowColor="#FF0000"
+        android:outlineSpotShadowColor="#57030F"
+        app:cardBackgroundColor="#CD5E6D"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/guideHor"
+        app:layout_constraintTop_toTopOf="@id/guideVer2" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:outlineAmbientShadowColor="#D50000"
+        android:outlineSpotShadowColor="#D50000"
+
+        app:cardBackgroundColor="#C81746"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideVer1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/guideHor"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:outlineAmbientShadowColor="#FF0000"
+        android:outlineSpotShadowColor="#57030F"
+        app:cardBackgroundColor="#D4194A"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@id/guideVer2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/guideHor"
+        app:layout_constraintTop_toBottomOf="@id/guideVer1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:outlineAmbientShadowColor="#FF0000"
+        android:outlineSpotShadowColor="#57030F"
+        app:cardBackgroundColor="#CF1848"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintLeft_toRightOf="@id/guideHor"
+        app:layout_constraintTop_toBottomOf="@id/guideVer2" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

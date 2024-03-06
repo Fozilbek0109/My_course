@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cansel service"/>
+    <Button
+        android:id="@+id/servise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="service"/>
+    <Button
+        android:id="@+id/servise2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="service"/>
+    <Button
+        android:id="@+id/forgroud_servise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forground service"/>
+    <Button
+        android:id="@+id/job_servise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jobservice"/>
+    <Button
+        android:id="@+id/intent_servise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent service"/>
+
+</LinearLayout>

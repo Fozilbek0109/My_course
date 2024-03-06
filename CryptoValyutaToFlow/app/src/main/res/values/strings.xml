@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CryptoValyutaToFlow</string>
+    <string name="currency_price">%s\n</string>
+</resources>

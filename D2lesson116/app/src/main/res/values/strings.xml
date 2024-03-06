@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">D2lesson116</string>
+    <string name="city_name_s">City name: %s</string>
+    <string name="temp_s">Temp: %s</string>
+</resources>
